@@ -1,0 +1,12 @@
+{
+  "name": "ourhealth-project",
+  "version": "1.0.0",
+  "description": "This is a group project of  mobile application featured with ai to suggest some ones' disease just by prompting it how you feel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
