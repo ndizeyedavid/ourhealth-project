@@ -2,14 +2,17 @@ import Header from "./components/Header"
 import MainContainer from "./components/MainContainer"
 import Container from '@mui/material/Container'
 import InputContainer from "./components/InputContainer"
+import { useState } from "react"
+
 const App = () => {
+  const [prompt, setPrompt] = useState('');
   return (
     <>
       <Header />
       
-      <MainContainer />
+      <MainContainer prompt={prompt} />
 
-      <InputContainer />
+      <InputContainer setPrompt={setPrompt}  />
 
     </>
   )

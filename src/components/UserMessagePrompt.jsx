@@ -1,9 +1,9 @@
 
-const UserMessagePrompt = () => {
+const UserMessagePrompt = ({prompt}) => {
   return (
     <>
      <div className="chat chat-end">
-        <div className="chat-bubble">Mellow</div>
+        <div className="chat-bubble">{prompt}</div>
       </div> 
     </>
   )
